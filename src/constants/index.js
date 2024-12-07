@@ -70,7 +70,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
-    link: "",
+    link: "https://portfolio-1ma4.vercel.app/",
   },
 ];
 
