@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { RxResume } from "react-icons/rx";
 
 const Navbar = () => {
   return (
@@ -39,6 +40,13 @@ const Navbar = () => {
           rel="noopener noreferrer"
         >
           <FaXTwitter className="hover:text-blue-500" />
+        </a>
+        <a
+          href=""////resume link needs to be uploaded
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <RxResume className="hover:text-black" />
         </a>
       </div>
     </nav>
