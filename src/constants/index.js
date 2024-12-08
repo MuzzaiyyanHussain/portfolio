@@ -54,7 +54,7 @@ export const PROJECTS = [
     description:
       "A decentralised application deployed on sepolia testnet with wonderfull UI and allows the user to transfer ETH to onother address.",
     technologies: ["REACT", "HARDHAT", "NODE.JS", "SOLIDITY"],
-    link: "https://web3-dapp-h19dpe1f5-mohd-muzzaiyyan-s-projects.vercel.app/",
+    link: "https://web3-dapp-ten.vercel.app/",
   },
   {
     title: "Donation Site",
