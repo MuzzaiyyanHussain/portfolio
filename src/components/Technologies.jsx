@@ -14,7 +14,6 @@
 // import { SiPostman } from "react-icons/si";
 // import { VscVscode } from "react-icons/vsc";
 
-
 // const iconVariants = (duration) => ({
 //   initial: { y: -10 },
 //   animate: {
@@ -169,7 +168,7 @@
 import React from "react";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb, SiPostgresql, SiWeb3Dotjs } from "react-icons/si";
+import { SiMongodb, SiWeb3Dotjs } from "react-icons/si";
 import { FaNodeJs, FaRust, FaHardHat } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { SiSolidity, SiTypescript, SiExpress, SiPostman } from "react-icons/si";
@@ -230,14 +229,7 @@ const Technologies = () => {
         >
           <SiMongodb className="text-6xl md:text-7xl text-green-500" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-400 p-4"
-        >
-          <SiPostgresql className="text-6xl md:text-7xl text-sky-700" />
-        </motion.div>
+
         <motion.div
           variants={iconVariants(6)}
           initial="initial"
